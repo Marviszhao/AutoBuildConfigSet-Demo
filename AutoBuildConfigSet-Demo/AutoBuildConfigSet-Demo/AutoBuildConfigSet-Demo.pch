@@ -1,0 +1,34 @@
+//
+//  AutoBuildConfigSet-Demo.pch
+//  AutoBuildConfigSet-Demo
+//
+//  Created by MARVIS on 2017/3/3.
+//  Copyright © 2017年 MARVIS. All rights reserved.
+//
+
+#ifndef AutoBuildConfigSet_Demo_pch
+#define AutoBuildConfigSet_Demo_pch
+
+//测试环境
+#ifdef DEBUG_VERSION
+
+#define BASE_URL_STR @"http://www.baidu.com/"
+
+
+//企业环境
+#elif defined(ENTERPRISE_VERSION)
+#define BASE_URL_STR @"http://www.google.com/"
+
+
+
+//AppStore环境
+#elif defined(RELEASE_VERSION)
+#define BASE_URL_STR @"http://www.sina.com/"
+
+
+#endif
+
+
+
+
+#endif /* AutoBuildConfigSet_Demo_pch */
