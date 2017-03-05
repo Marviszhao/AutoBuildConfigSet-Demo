@@ -5,3 +5,10 @@
 //  Created by MARVIS on 2017/3/3.
 //  Copyright © 2017年 MARVIS. All rights reserved.
 //
+
+XC_DISPLAY_NAME = 企业版
+
+XC_BUNDLE_VERSION = 0.0.0.1
+
+//:configuration = Enterprise
+XC_BUNDLE_IDENTIFIER = com.xxd.enterprise

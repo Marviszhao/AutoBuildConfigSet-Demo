@@ -83,8 +83,8 @@
 			children = (
 				664A0C261E69A7BD006E6BF2 /* main.m */,
 				664A0C3C1E69A833006E6BF2 /* AutoBuildConfigSet-Demo.pch */,
-				664A0C3F1E69AB1B006E6BF2 /* Enterprise.xcconfig */,
 				664A0C411E69AB79006E6BF2 /* Debug.xcconfig */,
+				664A0C3F1E69AB1B006E6BF2 /* Enterprise.xcconfig */,
 				664A0C431E69AB91006E6BF2 /* Release.xcconfig */,
 			);
 			name = "Supporting Files";
@@ -122,7 +122,7 @@
 					664A0C211E69A7BD006E6BF2 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = TP9NLAMUCX;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -297,6 +297,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xxd.AutoBuildConfigSet-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2d443a2e-46df-4f24-9c15-4352d5313a5f";
+				PROVISIONING_PROFILE_SPECIFIER = xxd_test_develop_Profile;
 			};
 			name = Debug;
 		};
@@ -312,6 +314,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xxd.AutoBuildConfigSet-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2d443a2e-46df-4f24-9c15-4352d5313a5f";
+				PROVISIONING_PROFILE_SPECIFIER = xxd_test_develop_Profile;
 			};
 			name = Release;
 		};
@@ -378,6 +382,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xxd.AutoBuildConfigSet-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2d443a2e-46df-4f24-9c15-4352d5313a5f";
+				PROVISIONING_PROFILE_SPECIFIER = xxd_test_develop_Profile;
 			};
 			name = Enterprise;
 		};
@@ -402,6 +408,7 @@
 				664A0C3B1E69A7BD006E6BF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
